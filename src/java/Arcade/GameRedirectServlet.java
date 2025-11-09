@@ -16,8 +16,8 @@ public class GameRedirectServlet extends HttpServlet {
             case "tictactoe":
                 targetPage = "games/tictactoe.jsp";
                 break;
-            case "snake":
-                targetPage = "games/snake.jsp";
+            case "guess":
+                targetPage = "games/guess.jsp";
                 break;
             case "memory":
                 targetPage = "games/memory.jsp";

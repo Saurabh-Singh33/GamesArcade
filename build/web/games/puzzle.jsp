@@ -7,48 +7,61 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Puzzle Game</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #f7971e, #ffd200);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            margin-bottom: 20px;
-        }
-        .puzzle {
-            display: grid;
-            grid-template-columns: repeat(3, 100px);
-            grid-gap: 5px;
-        }
-        .tile {
-            width: 100px;
-            height: 100px;
-            background: white;
-            font-size: 2em;
-            text-align: center;
-            line-height: 100px;
-            cursor: pointer;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        .empty {
-            background: transparent;
-            box-shadow: none;
-        }
-    </style>
-</head>
-<body>
-    <h1>Sliding Puzzle</h1>
-    <div class="puzzle" id="puzzle"></div>
-    <script>
+    <head>
+        <title>Puzzle Game</title>
+        <style>
+            body {
+                font-family: 'Poppins', sans-serif;
+                background: linear-gradient(135deg, #f7971e, #ffd200);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+            h1 {
+                margin-bottom: 20px;
+            }
+            .puzzle {
+                display: grid;
+                grid-template-columns: repeat(3, 100px);
+                grid-gap: 5px;
+            }
+            .tile {
+                width: 100px;
+                height: 100px;
+                background: white;
+                font-size: 2em;
+                text-align: center;
+                line-height: 100px;
+                cursor: pointer;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+            .empty {
+                background: transparent;
+                box-shadow: none;
+            }
+            .back-btn {
+                background-color: #333;
+                color: white;
+                text-decoration: none;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-weight: bold;
+                transition: background 0.3s;
+            }
+            .back-btn:hover {
+                background-color: #555;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Sliding Puzzle</h1>
+        <div class="puzzle" id="puzzle"></div>
+           <script>
         const puzzle = document.getElementById('puzzle');
         let tiles = [1, 2, 3, 4, 5, 6, 7, 8, null];
 
@@ -76,5 +89,11 @@
 
         render();
     </script>
+
+    <br>
+    <a href="<%= request.getContextPath() %>/mainmenu.jsp" class="back-btn">⬅ Back to Menu</a>
 </body>
+</html>
+
+    </body>
 </html>

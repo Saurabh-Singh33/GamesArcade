@@ -46,10 +46,9 @@ Modern web design + attractive Swing desktop UI
 Layer	Technology
 🎨 Frontend	HTML, CSS, JavaScript
 ☕ Backend (Web)	JSP, Servlets
-🖥️ Desktop	Java Swing
 🗄️ Database	MySQL
 🧱 Build Tool	Apache Ant / NetBeans
-🧩 IDE Used	NetBeans IDE
+🧩 IDE Netbeans
 🧑‍💻 Project Modules
 (i) Login & Signup
 

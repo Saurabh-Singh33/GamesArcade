@@ -64,9 +64,11 @@ Tic Tac Toe (JS + Swing)
 
 Snake (Canvas-based JavaScript)
 
-Sudoku (Swing)
+Sudoku 
 
-Puzzle (Swing)
+Puzzle
+
+Flapping bird
 
 Math Quiz (Logic-based challenge)
 
@@ -74,7 +76,6 @@ Score Management:
 
 Store user scores in MySQL
 
-Track progress and achievements
 
 (iv) Exit & Restart Options
 

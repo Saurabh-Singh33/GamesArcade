@@ -125,10 +125,11 @@ Desktop version (Swing): Run the main Java class
 📱 Fully mobile-responsive UI
 
 🧑‍💻 Developer
-
 👤 Saurabh Singh Rathore
+
 📍 B.Tech CSE | Marwadi University
-💼 Passionate Java Developer | Full Stack Learner
+💼 Java Developer | Full Stack Enthusiast | UI/UX Learner
+🚀 Passionate about building interactive desktop & web applications
 🔗 GitHub: Saurabh-Singh33
 
 💖 Support & Contribution
